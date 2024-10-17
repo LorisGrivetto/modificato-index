@@ -7,7 +7,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Cambiato bg-dark a bg-success -->
     <nav class="navbar navbar-expand-lg navbar-success bg-success">
         <div class="container">
             <a class="navbar-brand" href="#">Brawl Stars</a>
@@ -24,6 +23,10 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contatti</a>
+                    </li>
+                    <!-- Aggiunto link per Modalità di Gioco -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#modalita-gioco">Modalità di Gioco</a>
                     </li>
                 </ul>
             </div>
@@ -69,7 +72,6 @@
                     </div>
                 </div>
             </div>
-            <!-- Aggiunto il quarto personaggio -->
             <div class="col-md-3">
                 <div class="card">
                     <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Personaggio 4">
@@ -83,7 +85,25 @@
         </div>
     </div>
 
-    <!-- Modificato il footer per includere un link al profilo Instagram di Supercell -->
+    <!-- Nuova sezione "Modalità di Gioco" -->
+    <div class="container my-5" id="modalita-gioco">
+        <h2 class="text-center">Modalità di Gioco</h2>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <h5>Showdown</h5>
+                <p>In questa modalità, i giocatori combattono l'uno contro l'altro in un'arena in un match a solo o a duo.</p>
+            </li>
+            <li class="list-group-item">
+                <h5>Gem Grab</h5>
+                <p>Due squadre si affrontano per raccogliere e tenere sotto controllo 10 gemme per vincere.</p>
+            </li>
+            <li class="list-group-item">
+                <h5>Heist</h5>
+                <p>Le squadre devono attaccare il camion nemico mentre difendono il proprio da attacchi avversari.</p>
+            </li>
+        </ul>
+    </div>
+
     <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2024 Brawl Stars Fan Page - <a href="https://www.instagram.com/supercell/" class="text-white">Segui Supercell su Instagram</a></p>
     </footer>
